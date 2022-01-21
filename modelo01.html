@@ -6,17 +6,23 @@
         <title>Modelo 01</title>
         <style>
             body{
-                background-color: rgb(141, 141, 152);
+                /*background-color: rgba(141, 141, 152, 0.918);*/
+                background-color: hsl(0, 0%, 5%);
+                color: hsl(0, 100%, 100%);
             }
             h1{
-                color: hsl(0, 0%, 100%);
-                background-color: rgb(255, 1, 1);
-                border-bottom: 7px solid hsl(0, 100%, 25%);
-                border-right: 5px solid hsl(0, 100%, 25%);
-                border-top: 1px solid hsl(0, 100%, 25%);
-                border-left: 1px solid hsl(0, 100%, 25%);
-                padding-top: 10px;
-                padding-bottom: 10px;
+                color: hsl(200, 100%, 95%);
+                font-size: 50px;
+                font-style: normal;
+                margin-left: 50px;
+                margin-right: 50px;
+                background-color: hsl(200, 100%, 30%);
+                border-bottom: 10px solid hsl(200, 100%, 20%);
+                border-right: 7px solid hsl(200, 100%, 20%);
+                border-top: 1px solid hsl(200, 100%, 20%);
+                border-left: 1px solid hsl(200, 100%, 20%);
+                padding-top: 30px;
+                padding-bottom: 30px;
             }
             figure{
                 margin-top: -10px;
@@ -25,37 +31,83 @@
                 margin-top: -26px;
             }
             img{
-                width:400px;
-                height:200px;
-                border:2px solid #fff;
+                width:700px;
+                height:350px;
+                /*margin-left:-70px;*/
+            }
+            .html{
+                width: 150px;
+                height: 180px;
+            }
+            .css{
+                width: 150px;
+                height: 180px;
+            }
+            .js{
+                width: 150px;
+                height: 180px;
             }
         </style>
     </head>
     <body>
 
         <center>
-            <h1><big><b>HTML, CSS E JAVASCRIPT</b></big></h1>
+            <h1><big><b>CSS, HTML E JAVASCRIPT</b></big></h1>
 
+            <br>
             <figure>
-                <img src="pergunta.jpg" alt="teste de imagem" title="imagem teste">
-                <!--<img src="pergunta.jpg" alt="teste de imagem" title="imagem teste" style="width:400px; height:200px; border:2px solid #fff;">-->
-                <figcaption>
+                <img src="htmlcssjavascript2.jpeg" alt="teste de imagem" title="imagem teste">
+                <!-- <figcaption>
                     <h6>
                         Legenda da imagem
                     </h6>
-                </figcaption>
+                </figcaption> -->
             </figure>
 
+            <br>
             <div>
                 <h2>
                     <em>
-                        HTML
-                        <br>
-                        CSS
-                        <br>
-                        JAVASCRIPT
+                        CSS<br>
                     </em>
                 </h2>
+                <img class="css" src="css.jpg" alt="teste de imagem" title="imagem teste">
+                <h3>
+                    Cascading Style Sheets é um mecanismo para adicionar estilo a um documento <br>
+                    web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido <br>
+                    dentro das tags style. Também é possível, em vez de colocar a formatação <br>
+                </h3>
+            </div>
+            <br>
+            <div>
+                <h2>
+                    <em>
+                        HTML<br>
+                    </em>
+                </h2>
+                <img class="html" src="html.png" alt="teste de imagem" title="imagem teste">
+                <h3>
+                    HTML abreviação para a expressão inglesa HyperText Markup Language, que <br>
+                    significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação <br>
+                    utilizada na construção de páginas na Web. Documentos HTML podem ser <br>
+                    interpretados por navegadores. A tecnologia é fruto da junção entre os <br>
+                    padrões HyTime e SGML.<br>
+                </h3>
+            </div>
+            <br>
+            <div>
+                <h2>
+                    <em>
+                        JAVASCRIPT<br>
+                    </em>
+                </h2>
+                <img class="js" src="js.png" alt="teste de imagem" title="imagem teste">
+                <h3>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de <br>
+                    script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente <br>
+                    com HTML e CSS, o JavaScript é uma das três principais tecnologias da <br>
+                    World Wide Web.<br>
+                </h3>
             </div>
         </center>
     </body>
